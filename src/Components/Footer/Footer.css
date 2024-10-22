@@ -1,0 +1,158 @@
+
+.footer {
+    background-color: #1d1d1d;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer h3 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  /* Logo Section */
+  .footer-logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo-circle {
+    width: 80px;
+    height: 80px;
+    border: 3px solid #2d9cdb;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .logo-number {
+    font-size: 36px;
+    color: #2d9cdb;
+  }
+  
+  /* Address Section */
+  .footer-address {
+    flex: 2;
+    padding: 0 20px;
+  }
+  
+  /* Links Section */
+  .footer-links {
+    flex: 1;
+  }
+  
+  .footer-links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Newsletter Subscription */
+  .footer-subscribe {
+    flex: 2;
+    text-align: left;
+  }
+  
+  .footer-subscribe form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .footer-subscribe input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    flex: 1;
+  }
+  
+  .footer-subscribe button {
+    background-color: #2d9cdb;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-subscribe button:hover {
+    background-color: #007bb5;
+  }
+  
+  /* Social Media Icons */
+  .social-icons a {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 20px;
+  }
+  
+  .social-icons a:hover {
+    color: #2d9cdb;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-logo,
+    .footer-address,
+    .footer-links,
+    .footer-subscribe {
+      margin-bottom: 20px;
+    }
+  
+    .footer-subscribe form {
+      flex-direction: column;
+    }
+  
+    .footer-subscribe input {
+      margin-bottom: 10px;
+    }
+  }
+  

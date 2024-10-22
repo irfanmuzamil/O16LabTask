@@ -1,0 +1,78 @@
+.app-download-section {
+    background: radial-gradient(circle at 30% 50%, #0081f5, #006edc);
+    padding: 50px 20px;
+    text-align: center;
+    position: relative;
+    transform: translateY(-20px);
+    transform: translateY(20px);
+    border-radius: 50px;
+  }
+  
+  .app-download-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .app-download-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .mobile-image {
+    width: 200px;
+    margin-right: 30px;
+    height: 100%;
+  }
+  
+  .app-download-info h2 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .app-download-buttons {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .app-store-button {
+    width: 150px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .app-store-button:hover {
+    transform: scale(1.1);
+  }
+  
+  .food-item {
+    position: absolute;
+  }
+  
+  .pizza-image {
+    top: 10px;
+    right: -40px;
+    width: 120px;
+  }
+  
+  .ice-cream-image {
+    bottom: 0;
+    right: -30px;
+    width: 80px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .app-download-container {
+      flex-direction: column;
+    }
+  
+    .mobile-image {
+      margin-bottom: 20px;
+    }
+  }
+  
